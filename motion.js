@@ -88,7 +88,7 @@ function animation() {
     //      and will give the fading effect
     // this will also fade the balls which is okay if we create a second angle to keep producing them
     c.fillStyle = 'rgba(100, 200, 300, 0.1)' 
-    c.fillRect(0, 0, canvas.width, canvas.height);
+    c.fillRect(0,0,innerWidth,innerHeight);
     
     //now move each circle in a circular motion; connects to each circle that was pushed
     circleArray.forEach(element => {
