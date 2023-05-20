@@ -14,10 +14,10 @@ var angle = 1
 
 var mouseMove = { x: innerWidth / 2, y: innerHeight / 2 }
 
-//in case the window is resized
-document.addEventListener('resize', function() {
-    canvas.width = window.innerWidth
-    canvas.height = window.innerHeight;
+//resizing the browser
+window.addEventListener('resize', function() {
+	canvas.width = window.innerWidth;
+	canvas.height = window.innerHeight;
 })
 
 //to track the user's mouse
